@@ -2,7 +2,43 @@
     text-align: center;
     align-content: center;
     margin-left: 25%;
-}
+    border:2px solid white;
+    border-radius: 100%;
+    opacity: 0.0;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    }
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+        
+    
 
 header {
     background-color: black;
@@ -14,7 +50,13 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
+
+/* .navbar {
+  box-shadow: 0px -40px 39px 4px #000000;
+} */
+
 
 html,
       body {
@@ -27,6 +69,7 @@ html,
         line-height: 1.5;
         word-spacing: 2px;
         letter-spacing: 0.5px;
+        box-shadow: 5px -40px 85px 30px black;
       }
       .fixed {
         background-attachment: fixed;
@@ -45,15 +88,19 @@ html,
       }
       .scroll {
         background-color: black;
+        width: 100%;
         padding: 10px 70px;
-        
         color: white;
+        z-index: 1;
+        box-shadow: 5px -40px 100px 30px black;
       }
       .one {
-        background-image: url("assets/DDRHiG2XcAMc47N.jpg")
+        background-image: url("assets/DDRHiG2XcAMc47N.jpg");
+        
       }
       .two {
         background-image: url("assets/11143398_1646922422239875_1394364123186378101_o.jpg");
+        
         
       }
       .three {
@@ -63,10 +110,21 @@ html,
 
       .contact {
           background-color:rgba(0, 0, 0, 0.7);
-          margin-top: 30%;
+          margin-top: 25%;
+          
       }
       
 
       footer {
           background-color: black;
+          width: 100%;
+          z-index: 1;
+          box-shadow: 5px -40px 85px 30px black;
       }
+
+      #dog {
+        border-radius: 100%;
+      }
+
+
+      

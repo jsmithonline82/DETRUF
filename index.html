@@ -9,6 +9,11 @@
     <!--CSS FOR ALTERNATE FONT-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel ="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel ="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel ="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel ="manifest" href="favicon_io/site.webmanifest">
+    
     <title>DETROIT RUFFIANS</title>
 </head>
 <body>
@@ -17,7 +22,7 @@
 
     <!--HEADER NAVBAR WITH DROPDOWN-->  
       <header class="navbar navbar-expand-lg border-bottom border-light navbar-dark shadow-lg fixed-top">
-        <a class="navbar-brand" href="index.html">Detroit Ruffians</a>
+        <a class="navbar-brand" href="index.html"><img src="assets/icon.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="" loading="lazy">Detroit Ruffians</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,27 +54,28 @@
 
 
 
-      <div class="jumbotron border-bottom border-light">
+      <div class="jumbotron border-light mb-0">
         
-        <img id=logo class="mb-3 mt-5 border border-light shadow-lg" src="assets/Messages(1).jpg" style="align-self: center; max-width: 50%;">
+        <img id=logo class="mx-auto d-block mt-5 shadow-lg" src="assets/Messages(1).jpg" style="max-width: 50%;">
         <br>
-        <h2 class="mt-5 border border-bold rounded-lg shadow-lg" style="color: white;background-color: black;text-align: center;"><span><strong>World Famous, line bred and true to type. Large enough to take care of themselves and those they love</strong></span></h2>
-        <!-- <hr class="my-4"> -->
+        <h2 class="mt-5 border border-bold rounded-lg shadow-lg text-center" style="color: white;background-color: black;"><span class="font-weight-normal">World Famous, line bred and true to type. Large enough to take care of themselves and those they love</span></h2>
+        <hr class="my-4">
       </div>
 
       <div class="wrapper">
         <div class="fixed one border-top border-light"></div>
-        <div class="scroll pb-5 border-top border-light shadow-lg">
+        <div class="scroll pb-5 border-top border-light">
           <img src="assets/FB_IMG_1600829325144.jpg" class="float-right border border-light mb-3 ml-4" style="max-width: 50%;">
-          <p style="text-align: left;">
+          <p class="text-right text-md-left text-justify">
             the more the world changes breeds, the more the Ruffian American Staffordshire Terrier stays the same.
             Compare the Detroit Ruffian after 80 years, and 3 popular international breeds after the same amount of time.
           </p>
         </div>
         <div class="fixed two border border-top"></div>
-        <img src="assets/download.jpg" class="img-fluid float-left border border-light my-4 mx-4" style="max-width: 50%;">
-        <div class="scroll shadow-lg">
-          <p style="text-align: right;text-size-adjust: 75%;">
+        
+        <div class="scroll border-top">
+          <img src="assets/download.jpg" class="img-responsive float-left mx-3 my-3 border border-light" style="max-width: 30%;">
+          <p class="text-md-right text-justify mt-2">
             Placeholder text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem magna, hendrerit ut tincidunt ut, 
             sagittis et arcu. Integer faucibus lacus eget scelerisque convallis. Morbi nec lacus in est eleifend dapibus vitae a libero. 
             Pellentesque non vehicula nisi. Nam dolor sapien, hendrerit ultricies mauris vitae, vestibulum cursus nunc. In vestibulum 
@@ -82,7 +88,7 @@
                   <div id=contact class="contact col col-md-8 mb-5 overflow:auto text-white border border-light rounded-lg shadow-lg">
                     <h1 class="text-left border-bottom mt-2 pt=2 pb=2">Contact us</h1>
                     <address>
-                      <img src="assets/Messages(1).jpg" style="max-width: 35%;" class="float-right mb-lg-4 border border-light">
+                      <img id="dog" src="assets/Messages(1).jpg" style="max-width: 35%;" class="float-right mb-lg-4 border border-light">
                       <form class="text-left" style="align-center" action="mailto:jsmithbootcamp2020@gmail.com" method="post" enctype="text/plain">
                           Name:<br>
                           <input type="text" name="name"><br>
@@ -100,12 +106,13 @@
         </div>
         
       </div>
-
       
 
       
 
-      <footer class="footer fixed-bottom m-0  text-white border-top border-light mt-5 shadow-lg">
+      
+
+      <footer class="footer fixed-bottom m-0  text-white border-top border-light mt-5">
         <div class="container text-center">
           <span class="text-center">
             <a class="m-3" href="https://www.facebook.com/detroitruffians/" target="_blank" style="font-size:32px"><i class="fa fa-facebook-square" style="color: white;"></i></a></i>
